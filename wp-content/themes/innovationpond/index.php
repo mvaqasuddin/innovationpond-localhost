@@ -107,7 +107,9 @@ get_header(); ?>
         </div>
 
         <div class="txt">
-        <p>	<!-- Custom Slider--><?php $name = do_shortcode("[testimonials-pro]"); ?></p>
+        <p>	<!-- Custom Slider-->
+			<?php $name = do_shortcode("[testimonials-pro]"); ?>
+		</p>
 
         <p class="sm_t">Tom Moody SR Manager</p>
         <p><img src="<?php echo bloginfo('template_directory');?>/images/testimonials_b.png" /></p>
