@@ -52,7 +52,7 @@ $(function() {
 		$.scrollTo(
 			$(this).attr("href"),
 			{
-				duration: 800,
+				duration: 900,
 				offset: { 'left':0, 'top':-0.15*$(window).height() }
 			}
 		);

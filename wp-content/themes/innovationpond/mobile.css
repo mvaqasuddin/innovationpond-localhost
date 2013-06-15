@@ -1,4 +1,5 @@
 /* CSS Document */
+/* CSS Document */
 @media handheld, only screen and (max-width: 768px) {
 
 @import url("http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic,300italic,300,100italic,100");
@@ -186,3 +187,74 @@ img { border:none; }
 .footer_top .container_three .social	{width:auto; margin:24px 0px 0px 0px; clear:both; text-align:center;}
 
 .footer_bott	{float:left; width:100%; line-height:39px; font-size:12px; color:#b2b2b2; font-family: 'Lato', sans-serif;}
+
+
+
+.inner_content_area	{float:left; width:100%; padding:30px 0px; border-bottom:#DFDFDF solid 1px;}
+
+.portfolio_content	{width:100%; float:left; padding:0px 0px 30px 0px; border-bottom:#DFDFDF solid 1px; margin:0px 0px 40px 0px; color:#969696; line-height:22px; font-size:15px; font-weight:normal; font-family: 'Lato', sans-serif;}
+
+
+
+.portfolio_content_o	{float:left; width:100%; margin:0px 0px 35px 0px; color:#969696; line-height:22px; font-size:15px; font-weight:normal; font-family: 'Lato', sans-serif;}
+
+.portfolio_content_o .img_box	{float:left; width:100%; margin:0px 0px 20px 0px; text-align:center; background:none; border-bottom:#DFDFDF solid 1px;}
+
+.portfolio_content_o .txt	{float:right; width:100%;}
+
+.portfolio_content_o .txt h1	{float:left; font-size:22px; font-weight:normal; font-family: 'Lato', sans-serif; padding:0px; margin:0px 0px 15px 0px; width:100%;}
+
+
+
+.portfolio_content_t	{float:left; width:100%; margin:0px 0px 35px 0px; color:#969696; line-height:22px; font-size:15px; font-weight:normal; font-family: 'Lato', sans-serif;}
+
+.portfolio_content_t .img_box	{float:right; width:100%; margin:0px 0px 20px 0px; text-align:center; background:none; border-bottom:#DFDFDF solid 1px;}
+
+.portfolio_content_t .txt	{float:left; width:100%;}
+
+.portfolio_content_t .txt h1	{float:left; font-size:22px; font-weight:normal; font-family: 'Lato', sans-serif; padding:0px; margin:0px 0px 15px 0px; width:100%;}
+
+.portfolio_content_o .img_box img	{width:auto;}
+.portfolio_content_t .img_box img	{width:auto;}
+
+
+
+
+
+
+
+.about_o	{float:left; width:100%; margin:0px 0px 35px 0px; color:#969696; line-height:22px; font-size:15px; font-weight:normal; font-family: 'Lato', sans-serif;}
+
+.about_o .img_box	{float:left; width:100%; margin:0px 0px 20px 0px; text-align:center; background:none; border-bottom:#DFDFDF solid 1px;}
+
+.about_o .txt	{float:right; width:100%;}
+
+.about_o .txt h1	{float:left; font-size:22px; font-weight:normal; font-family: 'Lato', sans-serif; padding:0px; margin:0px 0px 15px 0px; width:100%;}
+
+
+
+.about_t	{float:left; width:100%; margin:0px 0px 35px 0px; color:#969696; line-height:22px; font-size:15px; font-weight:normal; font-family: 'Lato', sans-serif;}
+
+.about_t .img_box	{float:right; width:100%; margin:0px 0px 20px 0px; text-align:center; background:none; border-bottom:#DFDFDF solid 1px;}
+
+.about_t .txt	{float:left; width:100%;}
+
+.about_t .txt h1	{float:left; font-size:22px; font-weight:normal; font-family: 'Lato', sans-serif; padding:0px; margin:0px 0px 15px 0px; width:100%;}
+
+.about_o .img_box img	{width:auto;}
+.about_t .img_box img	{width:auto;}
+
+
+
+/*Contact Page Css*/
+
+.contact_l	{float:left; width:100%; margin:0px 0px 30px 0px; padding:0px 0px 30px 0px; border-bottom:#E2E2E2 solid 1px;}
+.contact_r	{float:right; width:100%; margin:0px;}
+
+
+.field_area	{float:left; width:100%; margin:0px 0px 12px 0px;}
+.field_area label	{float:left; line-height:45px; width:100%; color:#414143; font-size:15px; font-family: 'Lato', sans-serif;}
+
+.field_area input	{width:95%; height:36px; line-height:36px;}
+
+.field_area textarea	{width:95%; height:175px; line-height:18px; resize:none;}

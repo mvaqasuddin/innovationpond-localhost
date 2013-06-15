@@ -16,10 +16,7 @@
     	<div class="container_one">
         	<h1>What We Do</h1>
             <ul>
-            	<li><a href="#">Management Consulting</a></li>
-                <li><a href="#">Policy and Regulatory</a></li>
-                <li><a href="#">Market Assessment</a></li>
-                <li><a href="#">Program Management</a></li>
+            	<?php wp_nav_menu(array('menu'=>'footer_menu1'));  ?></nav>
             </ul>
         </div>
         <div class="container_one">

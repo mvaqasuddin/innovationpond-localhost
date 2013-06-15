@@ -455,3 +455,31 @@ h1.inner_head	{float:left; width:100%; padding:0px; color:#666666; font-weight:3
 .about_t .txt h1 span	{color:#A1A1A1;}
 
 .about_o .txt h1 span	{color:#A1A1A1;}
+
+
+/*Contact Page Css*/
+
+.contact_l	{float:left; width:550px;}
+
+h1.contacts_head	{float:left; width:100%; color:#666666; font-size:22px; font-weight:300; font-family: 'Lato', sans-serif; padding:0px; margin:0px 0px 22px 0px;}
+
+.field_area	{float:left; width:100%; margin:0px 0px 12px 0px;}
+.field_area label	{float:left; line-height:45px; width:91px; color:#414143; font-size:15px; font-family: 'Lato', sans-serif;}
+
+.field_area input	{width:435px; height:35px; line-height:35px;}
+
+.field_area textarea	{width:435px; height:175px; line-height:18px; resize:none;}
+
+a.submit	{ font-size:20px; color:#fff; font-weight:300; font-family: 'Lato', sans-serif; background:#73A534; height:41px; line-height:41px; padding:0px 30px; float:right; text-decoration:none; margin:0px 15px 0px 0px; border-radius:3px;}
+
+a.submit:hover	{background:#3a3a3a;}
+
+
+
+.contact_r	{float:right; width:276px; margin:0px 60px 0px 0px;}
+
+.contact_r ul	{margin:0px; padding:0px;}
+.contact_r ul li	{list-style-type:none; display:inline-block; width:100%; margin:0px 0px 20px 0px; padding:0px 0px 20px 0px; font-size:15px; font-family: 'Lato', sans-serif; line-height:22px; color:#969696; border-bottom:#E1E1E1 solid 1px;}
+.contact_r ul li.last	{border-bottom:0px;}
+
+.contact_r ul li h1	{font-size:17px; width:100%; font-family: 'Lato', sans-serif; color:#606060; margin:0px; padding:0px; line-height:28px;}

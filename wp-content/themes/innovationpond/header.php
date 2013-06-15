@@ -43,7 +43,7 @@
 
 <body>
 	<div class="nav-container">
-<?php if(is_page(array('portfolio-2','event','about'))) : ?>
+<?php if(is_page(array('portfolio-2','event','about','contact','entreprenuer','news'))) : ?>
 	<style>.nav-container{display:none; }
 			.entry-title{display:none; }
 	</style>
@@ -52,10 +52,11 @@
 
 					<ul>
 
-						<li><a href="#we_do" class="selected">What We Do</a></li>
-						<li><a href="#method">Our Methodology</a></li>
+						<li><a href="#home" class="selected">Home</a></li>
+						<li><a href="#we_do">What We Do</a></li>
+						<li><a href="#methodology">Our Methodology</a></li>
 						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#contact">Contact Us</a></li>
 						<?php //wp_nav_menu(array('menu'=>'flow_menu'));  ?></nav>
 
 					</ul>

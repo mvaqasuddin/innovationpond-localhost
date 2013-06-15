@@ -62,6 +62,7 @@ get_header(); ?>
             <h1><a href="<?php echo get_permalink($post->ID);?>"><?php the_title(); ?></a></h1>
              <p><?php excerpt('15'); ?></p>
 			<?php endwhile; ?>
+			<li><?php $name = do_shortcode("[testimonials-pro]"); ?></li>
             </li>
         </ul>
 
