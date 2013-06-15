@@ -62,7 +62,7 @@ get_header(); ?>
             <h1><a href="<?php echo get_permalink($post->ID);?>"><?php the_title(); ?></a></h1>
              <p><?php excerpt('15'); ?></p>
 			<?php endwhile; ?>
-			<li><?php $name = do_shortcode("[testimonials-pro]"); ?></li>
+			
             </li>
         </ul>
 
@@ -107,7 +107,7 @@ get_header(); ?>
         </div>
 
         <div class="txt">
-        <p>“Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis tortortor ris”</p>
+        <p>	<!-- Custom Slider--><?php $name = do_shortcode("[testimonials-pro]"); ?></p>
 
         <p class="sm_t">Tom Moody SR Manager</p>
         <p><img src="<?php echo bloginfo('template_directory');?>/images/testimonials_b.png" /></p>
